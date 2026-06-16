@@ -8,7 +8,7 @@ int main(void)        //函数头
 	num = 1;          //语句
 	printf("my favorite number is %d because it is first number.\n",num);
 	return 0;
-}                          
+}
 ```
 其他一些关键词：
 - 函数 fuction
@@ -19,3 +19,43 @@ int main(void)        //函数头
 - 头文件 header
 - 关键字 keyword 关键字是C语言的词汇
 - 标识符 identifier
+### 2.11复习题
+1. **C语言的基本模块是什么？**
+- 函数是C语言的基本模块。
+2. **什么是语法错误？写出一个英语例子和C语言例子。**
+- 语法错误是违反了C语言的编写规则。常见的语法错误：未添加头文件、使用变量未提前声明、语句后面的缺少分号或使用全角字符。
+3. **什么是语义错误？写出一个英语例子和C语言例子。**
+- 语义错误是难以发现的错误，一般符合C语言的语法，能够编译运行，但是会给出错误的结果或者程序崩溃。
+4. **重新修改示例程序。**
+```c
+#include<stdio.h>
+int main(voidi){
+    int s;
+    s =56;
+    printf("a year has %d weeks.\n",s);
+    return 0;
+}
+```
+5. **假设下面的4个例子都是完整程序中的一部分，它们都输出什么结果？**
+- a:`Baa Baa Black Sheep.Have you any wool?`
+- b:`Begone!`
+
+    `0 creature of load!`
+- c:`What?`
+
+    `N0/nfish`
+- d:`2 + 2 = 4`
+6. **在main 、int 、function 、char 、= 中，哪些是C语言的关键字？**
+- 关键字有`main`、`int`、`function`、`char`.
+7. **如何以下面的格式输出变量words和lines的值（这里，3020 和350 代表两个变量的值）？**
+```c
+#include<stdio.h>
+int main(void){
+    int words,lines;
+    words = 3020;
+    lines = 350;
+    printf("There were %d in %d lines.\n"words,lines);
+    return 0;
+}
+```
+
