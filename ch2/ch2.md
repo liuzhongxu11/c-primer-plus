@@ -19,6 +19,7 @@ int main(void)        //函数头
 - 头文件 header
 - 关键字 keyword 关键字是C语言的词汇
 - 标识符 identifier
+---
 ### 2.11复习题
 1. **C语言的基本模块是什么？**
 - 函数是C语言的基本模块。
@@ -29,10 +30,10 @@ int main(void)        //函数头
 4. **重新修改示例程序。**
 ```c
 #include<stdio.h>
-int main(voidi){
+int main(void){
     int s;
     s =56;
-    printf("a year has %d weeks.\n",s);
+    printf("a year has %d weeks.\n", s);
     return 0;
 }
 ```
@@ -40,13 +41,13 @@ int main(voidi){
 - a:`Baa Baa Black Sheep.Have you any wool?`
 - b:`Begone!`
 
-    `0 creature of load!`
+    `0 creature of lard!`
 - c:`What?`
 
-    `N0/nfish`
+    `No/nfish`
 - d:`2 + 2 = 4`
 6. **在main 、int 、function 、char 、= 中，哪些是C语言的关键字？**
-- 关键字有`main`、`int`、`function`、`char`.
+- 关键字有`int`、`char`.
 7. **如何以下面的格式输出变量words和lines的值（这里，3020 和350 代表两个变量的值）？**
 ```c
 #include<stdio.h>
@@ -54,8 +55,13 @@ int main(void){
     int words,lines;
     words = 3020;
     lines = 350;
-    printf("There were %d in %d lines.\n"words,lines);
+    printf("There were %d words in %d lines.\n", words, lines);
     return 0;
 }
 ```
+8. **考虑以下程序....，程序的状态是什么？**
+- 第7行：`a=5,b=2`。第8行：`a=5,b=5`。第9行：`a=5,b=5`。
+9. **考虑以下程序....，程序的状态是什么？**
+- 第7行：`x=10,y=5`。第8行：`x=10,y=15`。第9行：`x=150,y=15`。
+
 
